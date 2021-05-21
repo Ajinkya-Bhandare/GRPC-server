@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option go_package = "./";
+
+package restraunt;
+
+// The result service definition.
+service Add_Recieve_data {
+    rpc Add_restraunt (restraunt) returns (insert_result) {}
+
+    rpc Get_restraunt (Restraunt_Request) returns (Restraunt_Request){ }
+}
+
+// The request message containing the result for inserting new data.
+message insert_result {
+    bool result = 1;
+}
+
+// The response message containing the greetings
+message Restraunt_Request {
+    string message = 1;
+}
+
+message restraunt{
+    string name = 1;
+    string address = 2;
+    string phone = 3;
+}
