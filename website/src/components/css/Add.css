@@ -1,0 +1,29 @@
+.Form{
+    display: block;
+}
+label{
+    display: block;
+    color:black;
+}
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+input[type=submit] {
+    width: 40%;
+    background-color:rgb(63, 158, 19);
+    color: white;
+    position: fixed;
+    left: 30%;
+    display: block;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    cursor: pointer;
+  }

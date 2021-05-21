@@ -1,1 +1,34 @@
+.Navigation{
+    text-align: right;
+    display: inline;
+    background-color: aqua;
+}
+/* ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+} */
+ul#Nav{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:red;
 
+  }
+  
+ul#Nav li {
+    float: right;
+    display: block;
+    padding: 8px;
+    color: white;
+    background-color:red ;
+    border-left: 10px  white;
+    text-decoration: none;
+}
+  
+ul#Nav li a {
+    color: white;
+    text-decoration: none;
+  }
